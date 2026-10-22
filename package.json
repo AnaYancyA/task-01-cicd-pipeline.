@@ -1,0 +1,15 @@
+
+{
+  "name": "task-01-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "DevOps CI/CD pipeline using GitHub Actions, Node.js and Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": ["devops", "cicd", "github-actions", "docker"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
