@@ -23,9 +23,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
       - name: Run automated tests
         run: npm test
-
 
   docker:
     name: Build and Push Docker Image
@@ -51,10 +51,6 @@ jobs:
           context: .
           push: true
           tags: anayag/task-01-cicd-pipeline:latest
-
-        
-
-      - name: Run automated tests
-        run: npm test
+   
 
   
